@@ -1,0 +1,7 @@
+D:\Git\TrafficLight\TrafficLight\TrafficLight\bin\Debug\TrafficLight.exe.config
+D:\Git\TrafficLight\TrafficLight\TrafficLight\bin\Debug\TrafficLight.exe
+D:\Git\TrafficLight\TrafficLight\TrafficLight\bin\Debug\TrafficLight.pdb
+D:\Git\TrafficLight\TrafficLight\TrafficLight\obj\Debug\TrafficLight.csproj.AssemblyReference.cache
+D:\Git\TrafficLight\TrafficLight\TrafficLight\obj\Debug\TrafficLight.csproj.CoreCompileInputs.cache
+D:\Git\TrafficLight\TrafficLight\TrafficLight\obj\Debug\TrafficLight.exe
+D:\Git\TrafficLight\TrafficLight\TrafficLight\obj\Debug\TrafficLight.pdb

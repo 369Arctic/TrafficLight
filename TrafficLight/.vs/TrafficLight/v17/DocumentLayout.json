@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Git\\TrafficLight\\TrafficLight\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{599062F0-121B-41B9-AD5B-22900862ECBB}|TrafficLight\\TrafficLight.csproj|d:\\git\\trafficlight\\trafficlight\\trafficlight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{599062F0-121B-41B9-AD5B-22900862ECBB}|TrafficLight\\TrafficLight.csproj|solutionrelative:trafficlight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{599062F0-121B-41B9-AD5B-22900862ECBB}|TrafficLight\\TrafficLight.csproj|d:\\git\\trafficlight\\trafficlight\\trafficlight\\trafficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{599062F0-121B-41B9-AD5B-22900862ECBB}|TrafficLight\\TrafficLight.csproj|solutionrelative:trafficlight\\trafficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{599062F0-121B-41B9-AD5B-22900862ECBB}|TrafficLight\\TrafficLight.csproj|d:\\git\\trafficlight\\trafficlight\\trafficlight\\intersection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{599062F0-121B-41B9-AD5B-22900862ECBB}|TrafficLight\\TrafficLight.csproj|solutionrelative:trafficlight\\intersection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{599062F0-121B-41B9-AD5B-22900862ECBB}|TrafficLight\\TrafficLight.csproj|d:\\git\\trafficlight\\trafficlight\\trafficlight\\trafficeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{599062F0-121B-41B9-AD5B-22900862ECBB}|TrafficLight\\TrafficLight.csproj|solutionrelative:trafficlight\\trafficeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrafficEventArgs.cs",
+              "DocumentMoniker": "D:\\Git\\TrafficLight\\TrafficLight\\TrafficLight\\TrafficEventArgs.cs",
+              "RelativeDocumentMoniker": "TrafficLight\\TrafficEventArgs.cs",
+              "ToolTip": "D:\\Git\\TrafficLight\\TrafficLight\\TrafficLight\\TrafficEventArgs.cs",
+              "RelativeToolTip": "TrafficLight\\TrafficEventArgs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:20:51.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Intersection.cs",
+              "DocumentMoniker": "D:\\Git\\TrafficLight\\TrafficLight\\TrafficLight\\Intersection.cs",
+              "RelativeDocumentMoniker": "TrafficLight\\Intersection.cs",
+              "ToolTip": "D:\\Git\\TrafficLight\\TrafficLight\\TrafficLight\\Intersection.cs",
+              "RelativeToolTip": "TrafficLight\\Intersection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:20:33.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrafficLight.cs",
+              "DocumentMoniker": "D:\\Git\\TrafficLight\\TrafficLight\\TrafficLight\\TrafficLight.cs",
+              "RelativeDocumentMoniker": "TrafficLight\\TrafficLight.cs",
+              "ToolTip": "D:\\Git\\TrafficLight\\TrafficLight\\TrafficLight\\TrafficLight.cs",
+              "RelativeToolTip": "TrafficLight\\TrafficLight.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowFkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:19:12.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git\\TrafficLight\\TrafficLight\\TrafficLight\\Program.cs",
+              "RelativeDocumentMoniker": "TrafficLight\\Program.cs",
+              "ToolTip": "D:\\Git\\TrafficLight\\TrafficLight\\TrafficLight\\Program.cs",
+              "RelativeToolTip": "TrafficLight\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:17:47.639Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
