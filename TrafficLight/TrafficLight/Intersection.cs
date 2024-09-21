@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace TrafficLight
 {
@@ -15,12 +12,13 @@ namespace TrafficLight
         {
             trafficLights = new List<TrafficLight>
             {
-                new TrafficLight("VehicleLight1"),
-                new TrafficLight("VehicleLight2"),
-                new TrafficLight("PedestrianLight1"),
-                new TrafficLight("PedestrianLight2")
+                new TrafficLight("VehicleLight1", true),
+                new TrafficLight("VehicleLight2", true),
+                new TrafficLight("PedestrianLight1", false),
+                new TrafficLight("PedestrianLight2", false)
             };
 
+            // Подписка каждого светофора на события других светофоров
             foreach (var light in trafficLights)
             {
                 foreach (var otherLight in trafficLights)
@@ -37,10 +35,9 @@ namespace TrafficLight
         {
             Console.WriteLine("Запуск симуляции перекрестка...");
 
-            // Запускаем все светофоры
             foreach (var light in trafficLights)
             {
-                light.Start();
+                light.Start(); // Запуск каждого светофора
             }
 
             while (true)
@@ -54,18 +51,20 @@ namespace TrafficLight
         {
             Console.WriteLine("Обновляем трафик на перекрестке...");
 
-            // На одном светофоре добавляем очередь
-            trafficLights[0].AddToQueue();  
-            trafficLights[0].AddToQueue();  
+            // Добавление очереди
+            trafficLights[0].AddToQueue();
+            trafficLights[0].AddToQueue();
 
-            // Остальные светофоры без очереди
-            trafficLights[1].RemoveFromQueue();  // Убираем автомобили у VehicleLight2
-            trafficLights[2].RemoveFromQueue();  // Убираем пешеходов у PedestrianLight1
-            trafficLights[3].RemoveFromQueue();  // Убираем пешеходов у PedestrianLight2
+            // Удаление из очереди
+            trafficLights[1].RemoveFromQueue();
+            trafficLights[2].RemoveFromQueue();
+            trafficLights[3].RemoveFromQueue();
 
+            // Генерируем события и считаем камерой кол-во объектов в очереди
             foreach (var light in trafficLights)
             {
                 light.GenerateTrafficEvent();
+                light.CameraCount();
             }
         }
     }
